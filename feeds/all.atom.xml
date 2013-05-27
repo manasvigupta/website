@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Manasvi's Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2010-12-03T10:20:00+05:30</updated><entry><title>My super title</title><link href="/posts/2010/Dec/03/my-super-post/" rel="alternate"></link><updated>2010-12-03T10:20:00+05:30</updated><author><name>Manasvi Gupta</name></author><id>tag:,2010-12-03:posts/2010/Dec/03/my-super-post/</id><summary type="html">&lt;p&gt;This is the content of my super blog post.&lt;/p&gt;
-&lt;p&gt;:::java
-    System.out.println("Hello World!");&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Manasvi Gupta</title><link href="http://manasvigupta.com/" rel="alternate"></link><link href="http://manasvigupta.com/feeds/all.atom.xml" rel="self"></link><id>http://manasvigupta.com/</id><updated>2013-05-27T08:00:00+02:00</updated><entry><title>Hello World</title><link href="http://manasvigupta.com/hello-world.html" rel="alternate"></link><updated>2013-05-27T08:00:00+02:00</updated><author><name>Manasvi Gupta</name></author><id>tag:manasvigupta.com,2013-05-27:hello-world.html</id><summary type="html">&lt;p&gt;This is the content of my super blog post.&lt;/p&gt;</summary></entry><entry><title>Blog powered by Python and Pelican</title><link href="http://manasvigupta.com/how-is-this-blog-setup.html" rel="alternate"></link><updated>2013-05-27T08:00:00+02:00</updated><author><name>Manasvi Gupta</name></author><id>tag:manasvigupta.com,2013-05-27:how-is-this-blog-setup.html</id><summary type="html">&lt;p&gt;Blog powered by Pelican&lt;/p&gt;
+&lt;p&gt;Explain Overall solution
+What is pelican, how is this an advantage&lt;/p&gt;
+&lt;p&gt;Requirements
+Linux variant
+Python
+Github account
+Registered domain&lt;/p&gt;</summary></entry></feed>
