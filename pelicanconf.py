@@ -16,6 +16,11 @@ SITESUBTITLE = u"Open Source, Startups, Machine Learning, Functional Programming
 SITEURL = ''
 
 
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
+REVERSE_ARCHIVE_ORDER = True
+FILES_TO_COPY = (('CNAME', 'CNAME'),)
+
 RELATIVE_URLS = False
 #PAGE_DIR='src/pages'
 TIMEZONE = 'Europe/London'
@@ -33,7 +38,7 @@ GOOGLE_ANALYTICS = "UA-34383847-1"
 # Name , link, new page
 SOCIAL = (
 
-     ('Me', '/profile.html' , False ),
+     ('About Me', '/profile.html' , False ),
      ('Twitter', 'https://twitter.com/manasvigupta', True),
     ('Linkedin', 'http://www.linkedin.com/manasvigupta', True),
     ('Github', 'http://github.com/manasvigupta/', True),
