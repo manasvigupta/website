@@ -34,4 +34,6 @@ DEFAULT_PAGINATION = False
 
 
 # Add CNAME file 
-Add FILES_TO_COPY = (('extra/CNAME', 'CNAME'))
+FILES_TO_COPY = (
+    ('CNAME', 'CNAME'),
+)

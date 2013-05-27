@@ -33,7 +33,7 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 
- Add CNAME file 
- Add FILES_TO_COPY = (    
- ('extra/CNAME', 'CNAME')
- )
+# Add CNAME file 
+FILES_TO_COPY = (
+    ('extra/CNAME', 'CNAME'),
+)
